@@ -138,7 +138,7 @@ while True:
     if resp == 1:
         for j in range(len(lista_de_todos_processos)):
             print(f'  Processo[{j}]: {lista_de_todos_processos[j]}')
-            print(f'    Decisão? {lista_de_todos_processos[j].decisoes()}\n')
+            print(f'    Decisão: {lista_de_todos_processos[j].decisoes()}\n')
         try:
             qual_processo = int(input("Você gostaria de buscar pelas audiências de qual processo ?[apenas o número] "))
             qual_tempo = int(input('Digite o tempo em minutos da audiência a ser buscada: '))
