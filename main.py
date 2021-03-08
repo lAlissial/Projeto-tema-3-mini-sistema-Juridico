@@ -158,7 +158,7 @@ while True:
             qual_pessoa = int(input('Digite o número da pessoa da qual deseja acessar os processos e suas respectivas decisões: '))
             qual_decisao = menu(['Deferidos', 'Inderidos'],'Deseja ver a quantidade de processos:')
             if qual_decisao == 1:
-                print(f'{lista_de_todas_pessoas[qual_pessoa].num_decisoes(True)}') # Deu 1 pq ele so contabiliza os que estão 'em trâmite', o finalizado ele n leva em conta
+                print(f'{lista_de_todas_pessoas[qual_pessoa].num_decisoes(True)}') # Lembrar que ele so contabiliza os que estão 'em trâmite', o finalizado ele n leva em conta
             if qual_decisao == 2:
                 print(f'{lista_de_todas_pessoas[qual_pessoa].num_decisoes(False)}')
         except IndexError:
