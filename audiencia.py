@@ -31,4 +31,4 @@ class Audiencia:
         self._duracao = nova_duracao
 
     def __str__(self):
-        return f'Audiência:\n  Data{self._data}\n  Recomendação{self._recomendacao}\n  Duração: {self._duracao}'
+        return f'Audiência:\n  Data{self._data}\n  Recomendação{self._recomendacao}\n  Duração: {self._duracao} minutos'
