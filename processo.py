@@ -1,5 +1,4 @@
 from datetime import date
-from frufru import *
 
 class Processo:
     def __init__(self, descricao, custo, decisao, status, pessoa, advogado, audiencias=[]):
